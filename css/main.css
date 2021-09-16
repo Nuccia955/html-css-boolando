@@ -14,17 +14,18 @@
 .product_list {
     list-style-type: none;
     padding: 0 50px;
+    cursor: default;
 }
 
 .product_list .product {
     width: 33%;
     display: inline-block;
     margin: 30px auto;
-}
-
-.product {
     position: relative;
 }
+
+
+/* PRODUCT IMAGES */
 .product img {
     width: 100%;
 }
@@ -40,6 +41,7 @@
     display: block;
 }
 
+/* PRODUCT DESCRIPTION */
 .product .brand {
     font-size: 12px;
 }
@@ -52,7 +54,7 @@
 }
 
 .discounted {
-    color: red;
+    color: #ff0000;
     font-weight: bold ;
 }
 
@@ -60,23 +62,24 @@
     text-decoration-line: line-through ;
 }
 
+/* LABELS */
 .label {
     position: absolute;
     top: 80%;
-    padding: 4px;
+    left: 0;
     font-size: 13px;
     font-weight: bold;
     color: white;
 }
 
-.discount {
-    background-color: red;
-    left: 5px;
+.label .discount {
+    background-color: #eb0037;
+    padding: 4px;
 }
 
-.sustainability {
-    background-color: green;
-    left: 47px;
+.label .sustainability {
+    background-color: #00875a;
+    padding: 4px;
 }
 
 .heart {
@@ -88,8 +91,18 @@
     font-size: 18px;
     padding: 4px 10px;
 }
-/* UTILITIES */
-.up_case {
-    text-transform: uppercase;
+
+.heart:hover {
+    color: #eb0037;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #eb0037;
 }
 
+
+/* UTILITIES */
+
+.dis_b {
+    display: block;
+}
