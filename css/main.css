@@ -18,9 +18,9 @@
 }
 
 .product_list .product {
-    width: 33%;
+    width: 30%;
     display: inline-block;
-    margin: 30px auto;
+    margin: 30px 10px;
     position: relative;
 }
 
