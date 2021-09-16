@@ -5,3 +5,20 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.product_list {
+    list-style-type: none;
+    padding: 0 50px;
+}
+
+.product_list .product {
+    width: 33%;
+    display: inline-block;
+    margin: 30px auto;
+    padding: 5px;
+}
